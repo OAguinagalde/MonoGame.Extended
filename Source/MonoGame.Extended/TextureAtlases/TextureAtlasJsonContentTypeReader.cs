@@ -33,7 +33,7 @@ namespace MonoGame.Extended.TextureAtlases
             for (var i = 0; i < regionCount; i++)
             {
                 atlas.CreateRegion(
-                    ContentReaderExtensions.RemoveExtension(texturePackerFile.Regions[i].Filename),
+                    MonoGame.Extended.Content.ContentReaderExtensions.RemoveExtension(texturePackerFile.Regions[i].Filename),
                     texturePackerFile.Regions[i].Frame.X,
                     texturePackerFile.Regions[i].Frame.Y,
                     texturePackerFile.Regions[i].Frame.Width,

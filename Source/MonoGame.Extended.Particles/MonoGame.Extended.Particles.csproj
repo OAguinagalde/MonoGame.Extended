@@ -21,7 +21,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MonoGame.Framework.Portable" Version="3.6.0.1625" PrivateAssets="All" />
+    <!-- <PackageReference Include="MonoGame.Framework.Portable" Version="3.6.0.1625" PrivateAssets="All" /> -->
+    <ProjectReference Include="..\..\..\MonoGame\MonoGame.Framework\MonoGame.Framework.WindowsDX.csproj" />
     <ProjectReference Include="..\MonoGame.Extended\MonoGame.Extended.csproj" />
   </ItemGroup>
 </Project>
